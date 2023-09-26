@@ -2,7 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <header>
+        <input type='text' placeholder='Type to search...'  />
+    </header>
   )
 }
 

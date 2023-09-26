@@ -19,19 +19,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className=''>
+        <div className='flex h-screen'>
           {/* Sidebar Start */}
           <Sidebar/>
           {/* Sidebar End */}
 
           {/* Content Area Start */}
-          <div>
+          <div className='flex flex-col'>
             {/* Header Start */}
             <Header/>
             {/* Header End */}
 
             {/* Main Content Start */}
-            <main>
+            <main className='w-screen'>
               {children}
             </main>
             {/* Main Content End */}
